@@ -10,6 +10,7 @@ body{
     background-color: gray;
     height: 12vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .topBar #img1{
@@ -34,6 +35,7 @@ body{
     background-color: whitesmoke;
     border: 1px solid black;
     height: 84vh;
+    overflow: scroll;
 }
 
 .information{
@@ -103,16 +105,15 @@ body{
 }
 
 .loadMoreButtonContainer{
-    margin: auto;
-    margin-top: 20px;  
+    text-align: center;
+    margin-top: 10px; 
 }
-
 
 .infoButtonContainer{
     margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: 80px;
-    max-width: 500px; 
+    margin-bottom: 50px;
+    margin-left: 20px;
+    max-width: 500px;
 }
 
 .infoButtonContainer #infoButton{
@@ -125,10 +126,9 @@ body{
 }
 
 .reportButtonContainer{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: 80px;
-    width: 500px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px;
 }
 
 .reportButtonContainer #reportButton{
@@ -140,11 +140,76 @@ body{
     padding: 13px;    
 }
 
-div.pinakas{
+.pinakas{
+    margin-bottom: 30px;
     border: 1px solid orange;
+    padding: 10px;
+    overflow: hidden;
 }
 
-table {
+.pinakas #productList{
     margin: auto;
     text-align: center;
+    overflow: scroll;
 }
+
+.pinakas #productList #name {
+    background-color: aquamarine;
+}
+
+.pinakas #productList tr{
+    background-color: bisque;
+}
+
+
+/* expired.html */
+.pinakas #expiredList{
+    color: white;
+    margin: auto;
+    text-align: center;
+    overflow: scroll;
+}
+
+.pinakas #expiredList .expired{
+    background-color: red;
+}
+
+.pinakas #expiredList .expiring{
+    background-color: rgb(167, 167, 64);
+}
+
+.pinakas #expiredList .fresh{
+    background-color: green;
+}
+
+.locationButtonContainer{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    max-width: 500px;
+}
+
+.locationButtonContainer #locationButton{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 13px; 
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    
+    h1{
+        font-size: smaller;
+    }
+
+    .botBar{
+        font-size: smaller;
+    }
+}
+
