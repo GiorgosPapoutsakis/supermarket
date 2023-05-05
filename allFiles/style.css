@@ -170,6 +170,11 @@ body{
     overflow: scroll;
 }
 
+.pinakas #expiredList #name {
+    background-color: aquamarine;
+    color: black;
+}
+
 .pinakas #expiredList .expired{
     background-color: red;
 }
@@ -212,4 +217,3 @@ body{
         font-size: smaller;
     }
 }
-
