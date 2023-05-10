@@ -14,20 +14,20 @@ body{
 }
 
 .topBar #img1{
-    margin: 2px;
-    margin-left: 2px;
+    margin-top: 1px;
+    margin-left: 1px;
     border: 1px solid black;
-    max-width: 85px;
-    height: 11.3vh;
+    max-width: 90px;
+    height: 11.6vh;
     float: left;    
 }
 
 .topBar #img2{
-    margin-top: 2px;
-    margin-right: 2px;
+    margin-top: 1px;
+    margin-right: 1px;
     border: 1px solid black;
-    max-width: 85px;
-    height: 11.3vh;
+    max-width: 90px;
+    height: 11.6vh;
     float: right;    
 }
 
@@ -63,7 +63,6 @@ body{
 }
 
 /*menu.html */
-
 .selectButtonContainer{
     text-align: center;
     border: 1px solid black;
@@ -87,7 +86,6 @@ body{
 
 
 /* productList.html */
-
 .menuButtonContainer{
     margin-top: 30px;
     margin-bottom: 50px;
@@ -138,6 +136,10 @@ body{
     border-radius: 15px;
     text-decoration: none;
     padding: 13px;    
+}
+
+caption{
+    color: black;
 }
 
 .pinakas{
